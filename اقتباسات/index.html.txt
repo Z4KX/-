@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>اقتباسات وحكم</title>
+</head>
+<body>
+    <header>
+        <h1>اقتباسات وحكم</h1>
+        <button id="new-quote">اقتباس جديد</button>
+    </header>
+
+    <main>
+        <blockquote id="quote">
+            <p id="quote-text">اضغط على الزر للحصول على اقتباس جديد.</p>
+            <footer id="quote-author"></footer>
+        </blockquote>
+    </main>
+
+    <footer>
+        <p>حقوق الطبع والنشر &copy; 2024 <strong>اقتباسات وحكم</strong>. جميع الحقوق محفوظة.</p>
+        <p>تابعنا على إنستجرام: 
+            <a href="https://instagram.com/__z_a_k__" target="_blank">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" style="width: 24px; height: 24px;">
+            </a>
+        </p>
+    </footer>
+
+    <script src="quotes.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
